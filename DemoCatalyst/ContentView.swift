@@ -1,16 +1,22 @@
-//
-//  ContentView.swift
-//  DemoCatalyst
-//
-//  Created by Niklas Saers on 09/11/2019.
-//  Copyright © 2019 Niklas Saers. All rights reserved.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    let eventHandler = EventHandler()
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Spacer()
+            Text("Hello, World!")
+            Spacer()
+            Button(action: self.eventHandler.buttonATapped) {
+                Text("Button A")
+            }
+            Spacer()
+            Button(action: self.eventHandler.buttonBTapped) {
+                Text("Button B")
+            }
+            Spacer()
+        }
     }
 }
 
