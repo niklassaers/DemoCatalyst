@@ -554,6 +554,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Externals/openssl/lib",
+					"$(PROJECT_DIR)/Externals/libssh2/lib",
 					"$(PROJECT_DIR)/Externals",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.saers.tests.DemoCatalyst;
@@ -589,6 +590,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Externals/openssl/lib",
+					"$(PROJECT_DIR)/Externals/libssh2/lib",
 					"$(PROJECT_DIR)/Externals",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.saers.tests.DemoCatalyst;
